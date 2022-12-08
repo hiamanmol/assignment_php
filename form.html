@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login form</title>
+</head>
+<body>
+        <h1>Login form</h1>
+        <form action="form.php" method="post">
+            <label for="">Name:</label>
+            <br>
+            <input type="text" name="name" placeholder="First Name">
+            <br>
+            <input type="text" name="lastname" placeholder="Last Name">
+            <br><br>
+            <label for="">D.O.B</label> <input type="date" name="calender" >
+            <br><br>
+            <label>Gender:</label><br>
+            <input type="radio" name="gender" value="Male">Male
+            <input type="radio" name="gender" value="Female">Female<br><br>
+            <label >ID Proof:</label> <select name="select">
+               <option >Choose the option</option>
+               <option >Aadhar Card</option>
+               <option >License</option>
+               <option >Marksheet</option>
+               <option >Pan Card</option>
+           </select><br>
+           <label for="">Upload Proof:</label><br>
+           <input type="file" name="Document"><br><br>
+           <label>Upload Image:</label><br>
+           <input type="file" name="uploadfile"><br><br>
+           <button type="submit" value="submit">Submit</button>
+           <button type="reset" value="reset">Reset</button>
+        </form>
+    </div>
+</body>
+</html>
